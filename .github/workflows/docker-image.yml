@@ -30,4 +30,4 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           push: true
-          tags: user/docker-practice:v1
+          tags: ogeedocker/docker-practice:v1
