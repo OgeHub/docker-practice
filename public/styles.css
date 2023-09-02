@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+
+.front-page {
+  background-color: lightgray;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}

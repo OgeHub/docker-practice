@@ -1,0 +1,14 @@
+{
+  "name": "ecs",
+  "version": "1.0.0",
+  "description": "ecs demo project",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Success Ogechi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
