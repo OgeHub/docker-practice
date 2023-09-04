@@ -12,9 +12,9 @@ app.get("/", (req, res) => {
   res.render("home");
 });
 
-const hostname = "127.0.0.1";
+// const hostname = "127.0.0.1";
 const port = 3031;
 
-app.listen(port, hostname, () => {
-  console.log(`Server running at http://${hostname}:${port}/`);
+app.listen(port, () => {
+  console.log(`Server is running on port:${port}/`);
 });
